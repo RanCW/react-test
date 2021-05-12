@@ -1,5 +1,5 @@
 const initState = {
-  token:'',//登陆后的token
+  token:'123',//登陆后的token
 }
 
 const loginReducer = (state = initState, action) => {

@@ -1,0 +1,29 @@
+.page-container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+
+  .page-header{
+    border: 1px solid blue;
+    height: 100px;
+  }
+  .page-center{
+    border: 1px solid blue;
+    height: 100px;
+  }
+  .scroller{
+    border: 1px solid blue;
+    flex: 1;
+    overflow-y: scroll;
+    .scroller-item{
+      height: 150px;
+      border: 1px solid red;
+    }
+  }
+}
